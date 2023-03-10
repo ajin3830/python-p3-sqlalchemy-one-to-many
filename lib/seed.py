@@ -15,6 +15,7 @@ if __name__ == '__main__':
 
     session.query(Game).delete()
     session.query(Review).delete()
+    
 
     fake = Faker()
 
